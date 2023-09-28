@@ -11,5 +11,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(app.get("port"), () => {
-  console.log("port", app.get("port"))
+  console.log("port", app.get("puerto"))
 })
